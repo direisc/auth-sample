@@ -60,3 +60,11 @@ curl --request GET \
   --url http://localhost:3000/welcome \
   --header 'Authorization: Bearer eyJhbGciOiJ...'
 ```
+
+## Tests for the future
+
+Now the tests are made using the sql3 database on local resource.
+
+Upgrade code and test for using local database for testing, mock and others resources for prisma testing.
+
+Prepare code for using .env values and other stuffs for production.
